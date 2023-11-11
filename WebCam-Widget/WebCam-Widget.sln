@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34212.112
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCam-Widget", "WebCam-Widget\WebCam-Widget.csproj", "{E39D902E-5652-4DAE-A901-096962876F55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E39D902E-5652-4DAE-A901-096962876F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39D902E-5652-4DAE-A901-096962876F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39D902E-5652-4DAE-A901-096962876F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39D902E-5652-4DAE-A901-096962876F55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7C61116-D3B0-420E-B4ED-7F56C6D6C209}
+	EndGlobalSection
+EndGlobal
