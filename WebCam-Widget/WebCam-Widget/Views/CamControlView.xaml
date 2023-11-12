@@ -63,7 +63,9 @@
             Height="400"
             CornerRadius="400">
             <Border.Background>
-                <ImageBrush ImageSource="{Binding ImageData}" Stretch="UniformToFill" />
+                <ImageBrush ImageSource="{Binding ImageData}" Stretch="UniformToFill">
+                  
+                </ImageBrush>
             </Border.Background>
         </Border>
     </Grid>

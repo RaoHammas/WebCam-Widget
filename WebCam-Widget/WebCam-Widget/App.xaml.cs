@@ -1,6 +1,10 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Reflection;
+using System.Windows;
 using Microsoft.Extensions.DependencyInjection;
+using WebCam_Widget.Managers;
 using WebCam_Widget.ViewModels;
+using SeeShark.FFmpeg;
 
 namespace WebCam_Widget;
 
@@ -59,6 +63,8 @@ public partial class App : Application
 
         services.AddTransient<IMainWindowViewModel, MainWindowViewModel>();
         services.AddTransient<ICamControlViewModel, CamControlViewModel>();
+        services.AddSingleton<ICamDevicesManager, CamDevicesManager>();
+        services.AddSingleton<ICamOperationsManager, CamOperationsManager>();
 
 
         return services.BuildServiceProvider();
